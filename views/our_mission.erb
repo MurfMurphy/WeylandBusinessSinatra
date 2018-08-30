@@ -1,0 +1,150 @@
+<script>
+$(document).ready(function(){
+
+
+    $(window).scroll(function(){
+        var fromTopPx = 700; // distance to trigger
+        var fromTopPx2 = 1500;
+        var fromTopPx3 = 2400;
+        var scrolledFromtop = $(window).scrollTop();
+        if(scrolledFromtop > fromTopPx){
+            $('html').addClass('scrolled');
+        }
+        if (scrolledFromtop > fromTopPx2){
+            $('html').removeClass('scrolled')
+            $('html').addClass('scrolled1');
+        }
+        if (scrolledFromtop > fromTopPx3){
+            $('html').removeClass('scrolled1')
+            $('html').addClass('scrolled2');
+        }
+    });
+});
+</script>
+
+<div id='contentMission'>
+
+    <div id='box1'>
+        <div id='box1text'>OUR MISSION</div>
+    </div>
+
+    <div id='box2'>
+        <div id='box2text'>IS TO GO</div>
+    </div>
+
+    <div id='box3'>
+        <div id='box3text'>EVEN FURTHER</div>
+    </div>
+
+    <div id='box4'>
+        <div id='box4text'>BEYOND</div>
+    </div>
+
+    <div id='box5'>
+        <div id='box5Head'></div>
+        <div id='box5Text'>What the fuck did you just fucking say about me, you little bitch? I’ll have you know I graduated top of my class in the Navy Seals, and I’ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I’m the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You’re fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that’s just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little “clever” comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn’t, you didn’t, and now you’re paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You’re fucking dead, kiddo. 
+</div>
+    </div>
+    
+</div>
+
+<style>
+@font-face {
+    font-family: MoonLight;
+    src: url("MoonLight.otf") format("opentype");
+}
+html {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+html {
+    background-image:url("/images/mars2.jpg");
+    z-index: 2;
+}
+
+html.scrolled {
+    background-image:url("/images/saturn1080800.jpg");
+}
+html.scrolled1{
+    background-image:url("/images/horseheadscaled.jpg")
+}
+html.scrolled2{
+    background-image:url("/images/crabscaled.jpg")
+}
+#box1{
+    font-family: MoonLight;
+    position: absolute;
+    top: 80px;
+    left:30%;
+    # width: 310px;
+    # height: 200px;
+    # background-color: rgba(245, 245, 245, 0.51);
+    margin-top: 200px;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    z-index: -1;
+}
+#box2{
+    font-family: MoonLight;
+    position: absolute;
+    top: 1100px;
+    left:34%;
+    # width: 280px;
+    # height: 170px;
+    # background-color: rgba(245, 245, 245, 0.51);
+    margin-top: 30%;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    z-index: -1;
+}
+#box3{
+    font-family: MoonLight;
+    position: absolute;
+    top: 1800px;
+    left: 25%;
+    # width: 350px;
+    # height: 180px;
+    # background-color: rgba(245, 245, 245, 0.51);
+    margin-top: 30%;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    z-index: -1;
+}
+#box4{
+    font-family: MoonLight;
+    position: absolute;
+    top: 2700px;
+    left: 35%;
+    # width: 300px;
+    # height: 100px;
+    # background-color: rgba(245, 245, 245, 0.51);
+    margin-top: 30%;
+    margin-bottom: 200px;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    z-index: -1;
+}
+#box5{
+    font-family: MoonLight;
+    position: absolute;
+    top: 3200px;
+    background-color: rgba(245, 245, 245, 0.51);
+    margin: 200px 150px 200px 150px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+</style>
+
